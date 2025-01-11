@@ -2,8 +2,7 @@ document.querySelectorAll('.card img').forEach(img => {
     img.addEventListener('mouseenter', () => img.style.transform = 'scale(1.1)');
     img.addEventListener('mouseleave', () => img.style.transform = 'scale(1)');
   });
-  const links = document.querySelectorAll(".event a[data-article]");
-  console.log(links)
+const links = document.querySelectorAll(".event a[data-article]");
 links.forEach(link => {
     link.addEventListener("click", (event) => {
         event.preventDefault(); 
