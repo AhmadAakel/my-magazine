@@ -1,0 +1,63 @@
+body {
+    font-family: 'Cairo', sans-serif;    
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  .hero-section {
+    background: url('../img/hero.jpg') center/cover no-repeat;
+    height: 50vh;
+  }
+  
+  .hero-section .btn {
+    margin-top: 20px;
+  }
+  
+  .card img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.02);
+  }
+  
+  footer {
+    background: #222;
+    color: #ddd;
+  }
+
+  .article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about{
+    max-width: 700px;
+  }
+
+  .fa-brands{
+    font-size: x-large;
+  }
+
+  .footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222;
+    color: #ddd;
+    
+  }
+
+  .footer p{
+    padding-top: 10px;
+  }
+  .icons{
+    display: flex;
+    gap:10px;
+    padding: 30px 0;
+  }
