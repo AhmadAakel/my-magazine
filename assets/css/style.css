@@ -5,8 +5,28 @@ body {
   }
   
   .hero-section {
-    background: url('../img/hero.jpg') center/cover no-repeat;
+    position: relative;
     height: 50vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
   }
   
   .hero-section .btn {
